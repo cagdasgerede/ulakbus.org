@@ -164,6 +164,7 @@ Eğer geliştirmeyi kendi makinenizde yapmayı tercih ederseniz şu adımları i
     $ ln -s ~/ulakbus ~/ulakbusenv/lib/python2.7/site-packages/
 
 Eğer "pip install" sırasında bazı hatalar alırsanız şu çözüm yollarını deneyin:
+
 * "Python.h: No such file or directory" hatası için "sudo apt-get install python-dev" komutunu çalıştırın.
 * "openssl/opensslv.h: No such file or directory" hatası için "sudo apt-get install libssl-dev" komutunu çalıştırın.
 
