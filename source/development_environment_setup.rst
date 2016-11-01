@@ -82,7 +82,7 @@ Box içindeki dizinin sahibi ve grubunu ``ulakbus`` yapar.
 
 
 Gerekli düzenlemeleri yaptıktan sonra Vagrantbox **oluşturduğunuz dizin içerisinde** şu komut ile
-başlatabilirsiniz (Bu işlem için VirtualBox uygulaması gerekmektedir. Sisteminizde yoksa https://www.virtualbox.org/wiki/Linux_Downloads adresindeki kurulum adımları takip ediniz.):
+başlatabilirsiniz (Bu işlem için VirtualBox uygulaması gerekmektedir. Sisteminizde yoksa https://www.virtualbox.org/wiki/Linux_Downloads adresindeki kurulum adımlarını takip ediniz.):
 
 ::
 
