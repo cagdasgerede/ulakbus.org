@@ -159,10 +159,13 @@ Eğer geliştirmeyi kendi makinenizde yapmayı tercih ederseniz şu adımları i
     $ source ulakbusenv/bin/activate        		# python ortamını etkinleştir
     $ cd ~/ulakbus                          		# ulakbus git deposuna gir
     $ git pull                              		# son değişiklikleri uzak depodan çek
-    $ pip install -r requirements/requirements.txt      # ulakbus bagimliliklarini kur
-    # ulakbus python kutuphane dizinine ekle
+    $ pip install -r requirements/requirements.txt      # ulakbus bağımlılıklarını kur
+    # ulakbus python kütüphane dizinine ekle
     $ ln -s ~/ulakbus ~/ulakbusenv/lib/python2.7/site-packages/
 
+Eğer "pip install" sırasında bazı hatalar alırsanız şu çözüm yollarını deneyin:
+* "Python.h: No such file or directory" hatası için "sudo apt-get install python-dev" komutunu çalıştırın.
+* "openssl/opensslv.h: No such file or directory" hatası için "sudo apt-get install libssl-dev" komutunu çalıştırın.
 
 Vagrant Box Güncellemek
 +++++++++++++++++++++++
@@ -177,7 +180,7 @@ Bunun için önce Vagrantfile bulunan dizine geçiniz. Bu dizinde
 
     $ vagrant box outdated
 
-Komutunu çalıştırıp mevcut box eski mi değil mi kontrol edin. Daha sonra mevcut box destroy edip
+komutunu çalıştırıp mevcut box eski mi değil mi kontrol edin. Daha sonra mevcut box destroy edip
 yeniden init edebilirsiniz.
 
 .. Dikkat:: Prensip olarak box içerisinde geliştirme süreçlerine ait herhangi bir veri
